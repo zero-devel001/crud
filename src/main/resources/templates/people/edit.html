@@ -19,7 +19,7 @@
                 <div class = "card-body">
                     <form th:method="PATCH" th:action = "@{/people/{id}(id=${person.getId()})}" th:object = "${person}">
                         <div class ="form-group">
-                            <label> Student Full Name </label>
+                            <label> Student name </label>
                             <input
                                     type = "text"
                                     name = "firstName"
@@ -30,7 +30,7 @@
                         </div>
 
                         <div class ="form-group">
-                            <label> Student Age </label>
+                            <label> Student age </label>
                             <input
                                     type = "number"
                                     name = "age"
@@ -41,7 +41,7 @@
                         </div>
 
                         <div class ="form-group">
-                            <label> Student Email </label>
+                            <label> Student email </label>
                             <input
                                     type = "text"
                                     name = "email"
